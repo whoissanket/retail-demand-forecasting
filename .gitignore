@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Generated reports
+reports/figures/
+reports/model_results/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
