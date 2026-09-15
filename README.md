@@ -63,6 +63,20 @@ The main objectives are:
 | Version Control | Git, GitHub |
 
 ---
+## Dataset Setup
+
+The raw M5 dataset is not included in this repository because of its large file size.
+
+Download the M5 Forecasting dataset from Kaggle and place the following files inside:
+
+data/raw/
+
+├── calendar.csv
+├── sales_train_evaluation.csv
+└── sell_prices.csv
+
+After placing the dataset files in the correct directory, the notebooks and pipeline can be executed.
+
 
 ## 4. Dataset
 
